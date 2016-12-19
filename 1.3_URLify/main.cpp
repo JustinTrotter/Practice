@@ -7,7 +7,7 @@
 // Two scan approach
 // 1) count number of spaces, then triple it.
 // 2) in reverse order, copy the string and replace the space with '%20'
-
+// 
 #include <iostream>
 #include <string>
 using namespace std;
