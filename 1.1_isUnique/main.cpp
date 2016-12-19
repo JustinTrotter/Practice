@@ -27,6 +27,7 @@ bool isUniqueChars (string str) {
         bool * charSet = new bool[128];
         for (int i = 0; i < str.length(); i++){
                 if (charSet[str.at(i)]){
+                        delete charSet;
                         return false;
                 }
                 charSet[str.at(i)] = true;
