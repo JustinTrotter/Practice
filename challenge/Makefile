@@ -1,10 +1,10 @@
 all: quiz
 
 quiz: main.o 
-	    g++ main.o -o quiz
+	    g++ -std=c++11 main.o -o quiz
 
 main.o: main.cpp
-	    g++ -c main.cpp
+	    g++ -std=c++11 -c main.cpp
 
 clean:
 	    rm *o quiz
